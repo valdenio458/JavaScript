@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições - Switch</title>
+</head>
+<body>
+    <script>
+       var n1 = prompt('Número 1:')
+       var n2 = prompt('Número 2:')
+       var op = prompt('Operação:')
+       num1 = parseFloat(n1)
+       num2 = parseFloat(n2)
+
+       switch(op){
+           case '+':
+           console.log(num1 + num2)
+           break;
+           case '-':
+           console.log(num1 - num2)
+           break;
+           case '*':
+           console.log(num1 * num2)
+           break;
+           case '/':
+           console.log(num1 / num2)
+           break;
+           case '**':
+           console.log(num1 ** num2)
+           break;
+
+           default:
+           console.error('Erro')
+       }
+    </script>
+</body>
+</html>

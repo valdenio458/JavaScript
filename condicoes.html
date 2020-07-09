@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condições (if e else)</title>
+</head>
+<body>
+    <script>
+       var n1 = prompt('Número 1:')
+       var n2 = prompt('Número 2:')
+       var op = prompt('Operação:')
+       num1 = parseFloat(n1)
+       num2 = parseFloat(n2)
+       if (op == '+'){
+           console.log(num1 + num2)
+       } else if (op =='-'){
+           console.log(num1 - num2)
+       } else if (op =='*'){
+           console.log(num1 * num2)
+       } else if (op =='/'){
+           console.log(num1 / num2)
+       } else if (op =='**'){
+           console.log(num1 ** num2)
+       } else{
+           console.error('Operação não realizada')
+       }
+
+    </script>
+</body>
+</html>
